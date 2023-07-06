@@ -1,0 +1,665 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF1242F22A53FBB70018506C /* KeDa_Tech_TestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1242F12A53FBB70018506C /* KeDa_Tech_TestApp.swift */; };
+		BF1242F42A53FBB70018506C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1242F32A53FBB70018506C /* ContentView.swift */; };
+		BF1242F62A53FBB80018506C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF1242F52A53FBB80018506C /* Assets.xcassets */; };
+		BF1242F92A53FBB80018506C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF1242F82A53FBB80018506C /* Preview Assets.xcassets */; };
+		BF1242FB2A53FBB80018506C /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1242FA2A53FBB80018506C /* Persistence.swift */; };
+		BF1242FE2A53FBB80018506C /* KeDa_Tech_Test.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BF1242FC2A53FBB80018506C /* KeDa_Tech_Test.xcdatamodeld */; };
+		BF1243082A53FBB90018506C /* KeDa_Tech_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1243072A53FBB90018506C /* KeDa_Tech_TestTests.swift */; };
+		BF1243122A53FBB90018506C /* KeDa_Tech_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1243112A53FBB90018506C /* KeDa_Tech_TestUITests.swift */; };
+		BF1243142A53FBB90018506C /* KeDa_Tech_TestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1243132A53FBB90018506C /* KeDa_Tech_TestUITestsLaunchTests.swift */; };
+		BF1243212A54103B0018506C /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1243202A54103B0018506C /* Model.swift */; };
+		BF1243232A5525E50018506C /* ProductList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1243222A5525E50018506C /* ProductList.swift */; };
+		BFD92B432A569E8E00DE4227 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD92B422A569E8E00DE4227 /* SecondViewController.swift */; };
+		BFD92B452A569EE200DE4227 /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD92B442A569EE200DE4227 /* ContentViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF1243042A53FBB90018506C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF1242E62A53FBB70018506C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF1242ED2A53FBB70018506C;
+			remoteInfo = "KeDa-Tech-Test";
+		};
+		BF12430E2A53FBB90018506C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF1242E62A53FBB70018506C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF1242ED2A53FBB70018506C;
+			remoteInfo = "KeDa-Tech-Test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF1242EE2A53FBB70018506C /* KeDa-Tech-Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KeDa-Tech-Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF1242F12A53FBB70018506C /* KeDa_Tech_TestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeDa_Tech_TestApp.swift; sourceTree = "<group>"; };
+		BF1242F32A53FBB70018506C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BF1242F52A53FBB80018506C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF1242F82A53FBB80018506C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BF1242FA2A53FBB80018506C /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		BF1242FD2A53FBB80018506C /* KeDa_Tech_Test.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KeDa_Tech_Test.xcdatamodel; sourceTree = "<group>"; };
+		BF1243032A53FBB90018506C /* KeDa-Tech-TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KeDa-Tech-TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF1243072A53FBB90018506C /* KeDa_Tech_TestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeDa_Tech_TestTests.swift; sourceTree = "<group>"; };
+		BF12430D2A53FBB90018506C /* KeDa-Tech-TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KeDa-Tech-TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF1243112A53FBB90018506C /* KeDa_Tech_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeDa_Tech_TestUITests.swift; sourceTree = "<group>"; };
+		BF1243132A53FBB90018506C /* KeDa_Tech_TestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeDa_Tech_TestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BF1243202A54103B0018506C /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		BF1243222A5525E50018506C /* ProductList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductList.swift; sourceTree = "<group>"; };
+		BFD92B422A569E8E00DE4227 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		BFD92B442A569EE200DE4227 /* ContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF1242EB2A53FBB70018506C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF1243002A53FBB90018506C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF12430A2A53FBB90018506C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF1242E52A53FBB70018506C = {
+			isa = PBXGroup;
+			children = (
+				BF1242F02A53FBB70018506C /* KeDa-Tech-Test */,
+				BF1243062A53FBB90018506C /* KeDa-Tech-TestTests */,
+				BF1243102A53FBB90018506C /* KeDa-Tech-TestUITests */,
+				BF1242EF2A53FBB70018506C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF1242EF2A53FBB70018506C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF1242EE2A53FBB70018506C /* KeDa-Tech-Test.app */,
+				BF1243032A53FBB90018506C /* KeDa-Tech-TestTests.xctest */,
+				BF12430D2A53FBB90018506C /* KeDa-Tech-TestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF1242F02A53FBB70018506C /* KeDa-Tech-Test */ = {
+			isa = PBXGroup;
+			children = (
+				BFD92B412A569C3B00DE4227 /* Helper */,
+				BFD92B402A569C2D00DE4227 /* Controller */,
+				BFD92B3F2A569C2900DE4227 /* View */,
+				BFD92B3E2A569C2200DE4227 /* Model */,
+				BFD92B3D2A569C1C00DE4227 /* App */,
+				BF1242F52A53FBB80018506C /* Assets.xcassets */,
+				BF1242FC2A53FBB80018506C /* KeDa_Tech_Test.xcdatamodeld */,
+				BF1242F72A53FBB80018506C /* Preview Content */,
+			);
+			path = "KeDa-Tech-Test";
+			sourceTree = "<group>";
+		};
+		BF1242F72A53FBB80018506C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BF1242F82A53FBB80018506C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BF1243062A53FBB90018506C /* KeDa-Tech-TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF1243072A53FBB90018506C /* KeDa_Tech_TestTests.swift */,
+			);
+			path = "KeDa-Tech-TestTests";
+			sourceTree = "<group>";
+		};
+		BF1243102A53FBB90018506C /* KeDa-Tech-TestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BF1243112A53FBB90018506C /* KeDa_Tech_TestUITests.swift */,
+				BF1243132A53FBB90018506C /* KeDa_Tech_TestUITestsLaunchTests.swift */,
+			);
+			path = "KeDa-Tech-TestUITests";
+			sourceTree = "<group>";
+		};
+		BFD92B3D2A569C1C00DE4227 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				BF1242F12A53FBB70018506C /* KeDa_Tech_TestApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		BFD92B3E2A569C2200DE4227 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BF1243202A54103B0018506C /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BFD92B3F2A569C2900DE4227 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BF1243222A5525E50018506C /* ProductList.swift */,
+				BF1242F32A53FBB70018506C /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BFD92B402A569C2D00DE4227 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BFD92B442A569EE200DE4227 /* ContentViewController.swift */,
+				BFD92B422A569E8E00DE4227 /* SecondViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BFD92B412A569C3B00DE4227 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				BF1242FA2A53FBB80018506C /* Persistence.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF1242ED2A53FBB70018506C /* KeDa-Tech-Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF1243172A53FBB90018506C /* Build configuration list for PBXNativeTarget "KeDa-Tech-Test" */;
+			buildPhases = (
+				BF1242EA2A53FBB70018506C /* Sources */,
+				BF1242EB2A53FBB70018506C /* Frameworks */,
+				BF1242EC2A53FBB70018506C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "KeDa-Tech-Test";
+			productName = "KeDa-Tech-Test";
+			productReference = BF1242EE2A53FBB70018506C /* KeDa-Tech-Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF1243022A53FBB90018506C /* KeDa-Tech-TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF12431A2A53FBB90018506C /* Build configuration list for PBXNativeTarget "KeDa-Tech-TestTests" */;
+			buildPhases = (
+				BF1242FF2A53FBB90018506C /* Sources */,
+				BF1243002A53FBB90018506C /* Frameworks */,
+				BF1243012A53FBB90018506C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF1243052A53FBB90018506C /* PBXTargetDependency */,
+			);
+			name = "KeDa-Tech-TestTests";
+			productName = "KeDa-Tech-TestTests";
+			productReference = BF1243032A53FBB90018506C /* KeDa-Tech-TestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BF12430C2A53FBB90018506C /* KeDa-Tech-TestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF12431D2A53FBB90018506C /* Build configuration list for PBXNativeTarget "KeDa-Tech-TestUITests" */;
+			buildPhases = (
+				BF1243092A53FBB90018506C /* Sources */,
+				BF12430A2A53FBB90018506C /* Frameworks */,
+				BF12430B2A53FBB90018506C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF12430F2A53FBB90018506C /* PBXTargetDependency */,
+			);
+			name = "KeDa-Tech-TestUITests";
+			productName = "KeDa-Tech-TestUITests";
+			productReference = BF12430D2A53FBB90018506C /* KeDa-Tech-TestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF1242E62A53FBB70018506C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					BF1242ED2A53FBB70018506C = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					BF1243022A53FBB90018506C = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = BF1242ED2A53FBB70018506C;
+					};
+					BF12430C2A53FBB90018506C = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = BF1242ED2A53FBB70018506C;
+					};
+				};
+			};
+			buildConfigurationList = BF1242E92A53FBB70018506C /* Build configuration list for PBXProject "KeDa-Tech-Test" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF1242E52A53FBB70018506C;
+			productRefGroup = BF1242EF2A53FBB70018506C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF1242ED2A53FBB70018506C /* KeDa-Tech-Test */,
+				BF1243022A53FBB90018506C /* KeDa-Tech-TestTests */,
+				BF12430C2A53FBB90018506C /* KeDa-Tech-TestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF1242EC2A53FBB70018506C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF1242F92A53FBB80018506C /* Preview Assets.xcassets in Resources */,
+				BF1242F62A53FBB80018506C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF1243012A53FBB90018506C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF12430B2A53FBB90018506C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF1242EA2A53FBB70018506C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFD92B452A569EE200DE4227 /* ContentViewController.swift in Sources */,
+				BFD92B432A569E8E00DE4227 /* SecondViewController.swift in Sources */,
+				BF1242FB2A53FBB80018506C /* Persistence.swift in Sources */,
+				BF1243212A54103B0018506C /* Model.swift in Sources */,
+				BF1242F42A53FBB70018506C /* ContentView.swift in Sources */,
+				BF1243232A5525E50018506C /* ProductList.swift in Sources */,
+				BF1242FE2A53FBB80018506C /* KeDa_Tech_Test.xcdatamodeld in Sources */,
+				BF1242F22A53FBB70018506C /* KeDa_Tech_TestApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF1242FF2A53FBB90018506C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF1243082A53FBB90018506C /* KeDa_Tech_TestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF1243092A53FBB90018506C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF1243122A53FBB90018506C /* KeDa_Tech_TestUITests.swift in Sources */,
+				BF1243142A53FBB90018506C /* KeDa_Tech_TestUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF1243052A53FBB90018506C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF1242ED2A53FBB70018506C /* KeDa-Tech-Test */;
+			targetProxy = BF1243042A53FBB90018506C /* PBXContainerItemProxy */;
+		};
+		BF12430F2A53FBB90018506C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF1242ED2A53FBB70018506C /* KeDa-Tech-Test */;
+			targetProxy = BF12430E2A53FBB90018506C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BF1243152A53FBB90018506C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BF1243162A53FBB90018506C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF1243182A53FBB90018506C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KeDa-Tech-Test/Preview Content\"";
+				DEVELOPMENT_TEAM = FYAQ2W36J9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Vincent.KeDa-Tech-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF1243192A53FBB90018506C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KeDa-Tech-Test/Preview Content\"";
+				DEVELOPMENT_TEAM = FYAQ2W36J9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Vincent.KeDa-Tech-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BF12431B2A53FBB90018506C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FYAQ2W36J9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Vincent.KeDa-Tech-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KeDa-Tech-Test.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KeDa-Tech-Test";
+			};
+			name = Debug;
+		};
+		BF12431C2A53FBB90018506C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FYAQ2W36J9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Vincent.KeDa-Tech-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KeDa-Tech-Test.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KeDa-Tech-Test";
+			};
+			name = Release;
+		};
+		BF12431E2A53FBB90018506C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FYAQ2W36J9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Vincent.KeDa-Tech-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "KeDa-Tech-Test";
+			};
+			name = Debug;
+		};
+		BF12431F2A53FBB90018506C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FYAQ2W36J9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Vincent.KeDa-Tech-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "KeDa-Tech-Test";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF1242E92A53FBB70018506C /* Build configuration list for PBXProject "KeDa-Tech-Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF1243152A53FBB90018506C /* Debug */,
+				BF1243162A53FBB90018506C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF1243172A53FBB90018506C /* Build configuration list for PBXNativeTarget "KeDa-Tech-Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF1243182A53FBB90018506C /* Debug */,
+				BF1243192A53FBB90018506C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF12431A2A53FBB90018506C /* Build configuration list for PBXNativeTarget "KeDa-Tech-TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF12431B2A53FBB90018506C /* Debug */,
+				BF12431C2A53FBB90018506C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF12431D2A53FBB90018506C /* Build configuration list for PBXNativeTarget "KeDa-Tech-TestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF12431E2A53FBB90018506C /* Debug */,
+				BF12431F2A53FBB90018506C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BF1242FC2A53FBB80018506C /* KeDa_Tech_Test.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BF1242FD2A53FBB80018506C /* KeDa_Tech_Test.xcdatamodel */,
+			);
+			currentVersion = BF1242FD2A53FBB80018506C /* KeDa_Tech_Test.xcdatamodel */;
+			path = KeDa_Tech_Test.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BF1242E62A53FBB70018506C /* Project object */;
+}
